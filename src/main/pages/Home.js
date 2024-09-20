@@ -12,7 +12,7 @@ const products = [
   { id: 5, name: "Bath & Body Works Japanese Cherry Blossom 3-Wick Candle ", image: '/images/Bath & Body Works Japanese Cherry Blossom 3-Wick Candle.jpg', price: '1400' },
   { id: 6, name: "Favelin Cupcake Glaze Scented Candle | 300GM | Warm Vanilla & Spice | Cozy Bakery Scent", image: '/images/Favelin Cupcake Glaze Scented Candle.jpg', price: '550' },
   { id: 7, name: "Scented Candle | Soft Wool & Amber Large Jar Candle", image: '/images/Candle2.jpg', price: '225' },
-  { id: 8, name: "Bath and Body Works Rose Water & Ivy 3-Wick Candle.jpg", image: '/images/Bath and Body Works Rose Water & Ivy 3-Wick Candle.jpg', price: '1200' },
+  { id: 8, name: "Bath and Body Works Rose Water & Ivy 3-Wick Candle", image: '/images/Bath and Body Works Rose Water & Ivy 3-Wick Candle.jpg', price: '1200' },
   { id: 9, name: "Zaha Home Marble Scented Candle , Egyption Onyx Premium transparent marble", image: '/images/Zaha Home Marble Scented Candle , Egyption Onyx Premium transparent marble, 2-wicks.jpg', price: '850' },
   { id: 10, name: "Bath & Body Works White Barn Champagne Toast 3-Wick Candle", image: '/images/Candle1.jpg', price: '1000' },
   { id: 11, name: "Bath & Body Works In the Stars 3-Wick Candle 411g", image: '/images/Bath & Body Works In the Stars 3-Wick Candle 411 g .jpg', price: '1170' },
