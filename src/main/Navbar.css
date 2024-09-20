@@ -1,0 +1,149 @@
+.navbar {
+  background: hsl(0, 100%, 2%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+/* حاوية الـ Navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1700px;
+  width: 100%;
+  padding: 0 20px;
+  color: hsl(291, 54%, 97%);
+}
+
+/* الشعار */
+.navbar-logo {
+  text-decoration: none;
+  font-size: 3rem;
+  margin-top: 63px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* قائمة الـ Navbar */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+/* عنصر في قائمة الـ Navbar */
+.nav-item {
+  height: 40px;
+}
+
+/* روابط قائمة الـ Navbar */
+.nav-links {
+  color: #faf4fa;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  transition: border-bottom 0.2s ease-out;
+}
+
+/* تأثير التحويم على روابط الـ Navbar */
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+}
+
+/* أيقونة القائمة (Menu Icon) */
+.fa-bars {
+  color: #b831b1;
+}
+
+/* إخفاء الروابط في الوضع الموبايل */
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #242222;
+    opacity: 1;
+    transition: all 0.5s ease;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #444;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+/* تنسيق عدد العناصر في العربة */
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  position: relative;
+  top: -10px;
+}

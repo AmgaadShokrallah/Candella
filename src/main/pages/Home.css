@@ -1,0 +1,149 @@
+.home-container {
+  padding: 120px;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* أفضل المنتجات */
+.featured-products {
+  margin-bottom: 60px;
+}
+
+.featured-products h2 {
+  font-size: 3em;
+  color: #742177;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 9px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 290px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  max-width: 90%;
+  height: auto;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-info h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-info .product-price {
+  font-size: 1.1em;
+  color: #171a18;
+  margin: 10px 0;
+}
+
+.btn-buy, .btn-add-to-cart {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-add-to-cart {
+  background-color:rgb(105, 69, 136) /* لون الأزرق لإضافة إلى السلة */
+}
+
+/* التقييمات والشهادات */
+.testimonials {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.testimonials blockquote {
+  border-left: 4px solid #a1f3a8;
+  padding-left: 20px;
+  font-style: italic;
+  margin: 10px 0;
+  color: #666;
+}
+
+.testimonials footer {
+  font-weight: bold;
+  text-align: right;
+  color: #333;
+}
+
+/* عرض خاص */
+.special-offer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.special-offer h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.special-offer p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.special-offer form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.special-offer button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.special-offer button:hover {
+  background-color: #ff4c4c;
+  transform: scale(1.05);
+}
+
+.btn-add-to-cart:hover, .btn-buy:hover {
+  opacity: 0.8;
+}

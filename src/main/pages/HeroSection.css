@@ -1,0 +1,57 @@
+.hero-section {
+  background: url('/public/images/Background2.avif') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* توسيط المحتوى عموديًا */
+  justify-content: center; /* توسيط المحتوى أفقيًا */
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  padding-top: 70px; /* لتجنب تداخل الـ Navbar مع المحتوى */
+}
+
+.hero-title {
+  color: rgb(221, 228, 235);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  max-width: 800px; /* تحديد أقصى عرض للنص */
+  margin: 13px auto; /* توسيط الفقرة */
+}
+
+.btn-shop-now {
+  padding: 0.75rem 1.7rem;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 410px;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  text-decoration: none; /* إزالة التسطير */
+  display: inline-block; /* للتأكد من تنسيق الزر بشكل صحيح */
+}
+
+.btn-shop-now:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.btn-shop-now:focus {
+  outline: none;
+}
