@@ -12,7 +12,7 @@ import ContactUs from './main/pages/ContactUs';
 import PrivacyPolicy from './main/pages/PrivacyPolicy';
 import HeroSection from './main/pages/HeroSection';
 import { CartProvider } from './context/CartContext';
-import { AuthProvider } from './context/AuthContext'; // استخدم AuthProvider هنا
+import { AuthProvider } from './context/AuthContext';
 
 function AppContent() {
   const location = useLocation();
@@ -39,7 +39,7 @@ function AppContent() {
 function App() {
   return (
     <Router>
-      <AuthProvider> {/* استخدم AuthProvider هنا */}
+      <AuthProvider>
         <CartProvider>
           <div className="app-container">
             <AppContent />

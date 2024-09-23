@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const { cartItems } = useCart(); // استخدام العربة
+  const { cartItems } = useCart();
 
   const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
 
