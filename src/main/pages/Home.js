@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
-import { useCart } from '../../context/CartContext'; // استيراد Context العربة
+import { useCart } from '../../context/CartContext';
 
 const products = [
   { id: 1, name: "Bath & Body Works Dark Kiss 3-Wick Candle", image: '/images/Bath & Body Works Dark Kiss 3-Wick Candle.jpg', price: '1100' },

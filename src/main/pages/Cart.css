@@ -107,11 +107,11 @@ select {
 
 .login-alert {
   background-color: #f6f3ee;
-  color: rgb(24, 16, 16); /* لون النص */
-  padding: 0px; /* زيادة padding لخلق مساحة حول النص */
-  text-align: center; /* محاذاة النص في المنتصف */
-  margin: 1px 0; /* الهامش العلوي والسفلي */
-  border: none; /* إزالة الحدود */
+  color: rgb(24, 16, 16);
+  padding: 0px;
+  text-align: center;
+  margin: 1px 0;
+  border: none;
 }
 
 .cart-checkout-form {

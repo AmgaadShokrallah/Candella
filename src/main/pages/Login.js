@@ -11,8 +11,8 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login(); // تسجيل الدخول مباشرة
-    navigate('/'); // توجيه إلى الصفحة الرئيسية
+    login();
+    navigate('/');
   };
 
   return (
